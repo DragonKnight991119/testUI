@@ -1,0 +1,159 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  /* .services_more_box_child_item, .services_more_box_child_footer p {
+    font-size: 200%;
+  } */
+
+  html {
+    zoom: 1.4 !important;
+  }
+
+  #SERVICES_MORE .services_more_box {
+    height: auto;
+    padding: 120px;
+  }
+  #CONTACT {
+    height: auto;
+    padding: 70px 150px;
+  }
+  #ZIP_CODE {
+    height: auto;
+    padding: 100px 150px;
+  }
+  #HOME_PAGE {
+    padding: 60px 150px 0 150px;
+  }
+  .services_cart {
+    width: 70%;
+  }
+  #FAQ {
+    padding: 130px 260px 60px 260px;
+  }
+
+  #FOOTER {
+    padding: 100px 150px 50px 150px;
+  }
+
+  .contact_first_block_items:nth-child(2) img {right: -100px;}
+  .contact_first_block_items img {
+    top: -20px;
+  }
+  .contact_first_block_two {
+    height: auto;
+    padding: 0 150px;
+    gap: 0 5%;
+  }
+  .contact_img {
+    width: 40%;
+  }
+  #SERVICES_MORE .services_more_box {
+    margin-top: 0px;
+  }
+
+
+
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  html {
+    zoom: 1.4 !important;
+  }
+
+  #SERVICES_MORE .services_more_box {
+    height: auto;
+    padding: 120px;
+  }
+  #CONTACT {
+    height: auto;
+    padding: 70px 150px;
+  }
+  #ZIP_CODE {
+    height: auto;
+    padding: 100px 150px;
+  }
+  #HOME_PAGE {
+    padding: 60px 150px 0 150px;
+  }
+  .services_cart {
+    width: 70%;
+  }
+  #FAQ {
+    padding: 130px 260px 60px 260px;
+  }
+
+  #FOOTER {
+    padding: 100px 150px 50px 150px;
+  }
+
+  .contact_first_block_items:nth-child(2) img {right: -100px;}
+  .contact_first_block_items img {
+    top: -20px;
+  }
+  .contact_first_block_two {
+    height: auto;
+    padding: 0 150px;
+    gap: 0 5%;
+  }
+  .contact_img {
+    width: 40%;
+  }
+  #SERVICES_MORE .services_more_box {
+    margin-top: 0px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+}
